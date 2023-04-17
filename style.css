@@ -1,0 +1,42 @@
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.title-pic{
+    width: 400px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-list {
+    list-style:none;
+}
+
+.main-list li{
+    display: inline-block;
+    padding: 0% 0.5rem;
+    min-width: 14rem;
+    text-align: center;
+    background-color: rgba(247, 255, 176, 0.849);
+}
+
+.main-list li:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+.ing {
+    background-color: rgb(161, 194, 243);
+}
+
+.images{
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    max-width: 600px;
+}
