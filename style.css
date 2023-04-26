@@ -1,8 +1,37 @@
+html{
+    background-color: white;
+}
+
+body{
+    background-color:linen;
+    padding: 20px 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
 .title{
     text-transform: uppercase;
     text-align: center;
+    font-family: fantasy;
     font-size: 48px;
     font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: linen;
+    padding: 15px 0px;
+    border-top: 2px solid black;
+}
+
+.index-pic{
+    text-align: center;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+    border-top: solid black 2px;
+
 }
 
 .title-pic{
@@ -16,18 +45,30 @@
 
 .main-list {
     list-style:none;
+    padding-left: 0px;
 }
 
 .main-list li{
     display: inline-block;
-    padding: 0% 0.5rem;
-    min-width: 14rem;
-    text-align: center;
-    background-color: rgba(247, 255, 176, 0.849);
 }
 
 .main-list li:not(:last-child) {
     border-right: 2px solid black;
+} 
+
+.main-list li:not(:first-child){
+    margin-left: -4px;
+}
+
+.main-list button{
+    background-color:wheat;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    width: 200px;
+    height: 55px;
+    font-family: fantasy;
+    vertical-align: middle;
 }
 
 .ing {
